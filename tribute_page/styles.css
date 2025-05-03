@@ -1,0 +1,65 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  #title {
+    font-size: 2.8em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e3b873; /* A gold-chess tone */
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  #img-div {
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  #img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ccc;
+  }
+  
+  #tribute-info {
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 0 10px;
+  }
+  
+  #tribute-link {
+    color: #e3b873;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #tribute-link:hover {
+    color: #f0c987;
+    text-decoration: underline;
+  }
+  
+  
