@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#video-section">Video</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="form-section">
+      <h2>Join Our Mailing List</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" id="submit" value="Get Started">
+      </form>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <div class="features-flex">
+        <div class="feature-box">Fast and Reliable</div>
+        <div class="feature-box">Easy to Use</div>
+        <div class="feature-box">Responsive Design</div>
+      </div>
+    </section>
+
+    <section id="video-section">
+      <h2>Watch Our Product in Action</h2>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/watch?v=XFkzRNyygfk&pp=ygUPY3JlZXAgcmFkaW9oZWFk" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <div class="features-flex">
+        <div class="price-box">Basic - Free</div>
+        <div class="price-box">Pro - $19.99/month</div>
+        <div class="price-box">Enterprise - Contact Us</div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

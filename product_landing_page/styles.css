@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 80px; 
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 1000;
+}
+
+#header-img {
+  width: 50px;
+}
+
+#nav-bar {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+main section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.features-flex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.feature-box,
+.price-box {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 200px;
+}
+
+#form {
+  margin-top: 1rem;
+}
+
+#email {
+  padding: 0.5rem;
+  width: 250px;
+  margin-right: 0.5rem;
+}
+
+#submit {
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #218838;
+}
+
+@media only screen and (max-width: 768px) {
+  .features-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #email {
+    width: 100%;
+    margin: 0 0 0.5rem 0;
+  }
+
+  #submit {
+    width: 100%;
+  }
+}
